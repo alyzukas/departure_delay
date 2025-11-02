@@ -21,10 +21,6 @@ executed in Google Colab using the `nycflights13` dataset.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1UX6xXixKirhUbRy2xcQqpOwBOpC45K64#scrollTo=uleS3xuDbX9h)
 
-# Education project
-- **Author:** Alyssa Zukas 
-- **Date:** October 25, 2025
-
 ---
 
 ## Project Structure

@@ -11,4 +11,5 @@ executed in Google Colab using the `nycflights13` dataset.
 1. Click the **Open in Colab** badge below, or  
 2. Download the `.ipynb` and open in Colab manually.
 
-[![Open In Colab](https://colab.research.google.com/drive/1UX6xXixKirhUbRy2xcQqpOwBOpC45K64#scrollTo=uleS3xuDbX9h)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alyzukas/departure-delays-report/blob/main/departure_delays_analysis.ipynb)
+

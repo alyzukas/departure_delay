@@ -11,11 +11,11 @@ executed in Google Colab using the `nycflights13` dataset.
 
 **Problem Statement:** Which variable impacts departure delays the most? 
 
-## Files
+### Files
 - `departure_delays_analysis.ipynb` – main Colab notebook
 
 
-## How to open
+### How to open
 1. Click the **Open in Colab** badge below, or  
 2. Download the `.ipynb` and open in Colab manually.
 

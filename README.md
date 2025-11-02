@@ -26,10 +26,11 @@ executed in Google Colab using the `nycflights13` dataset.
 ## Project Structure
 
 ```
-├── code/                 # Google Colab Notebook and R script
-├── reports/              # Generated reports and visualizations
-├── requirements.txt      # Dependencies
-└── README.md             # Project documentation
+├── 'departure_delay_analysis'                # Google Colab Notebook and R script
+├── 'departure_delay_analysis_report          # Generated reports and visualizations
+├── 'departure_delay_analysis_presentation    # Presentation slides for communicating results
+├── requirements.txt                          # Dependencies
+└── README.md                                 # Project documentation
 ```
 
 ---

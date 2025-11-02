@@ -1,6 +1,6 @@
-# Departure delay flight analysis for United Airlines
+# Departure delay flight analysis
 
-This repository contains an R analysis of NYC flight departure delays,
+This repository contains an R analysis of NYC flight departure delays for United Airlines,
 executed in Google Colab using the `nycflights13` dataset.
 
 ## Files

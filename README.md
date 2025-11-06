@@ -58,9 +58,9 @@ Google Colab Notebook
 ---
 
 ## Results 
-For 2013 United Airlines NYC flights, we found that the strongest predictors of departure delays were time_of_day and time_of_year, but when tested for randomness – we found that time_of_day was the only variables that displayed any level of statistical significance. 
+For 2013 United Airlines NYC flights, we found that the strongest predictors of departure delays were time_of_day and time_of_year, but when tested for randomness – we found that time_of_day was the only variable that displayed any level of statistical significance. 
 
-So, to answer our original question - what variable has the greatest effect on departure delays? - our suggested solution would be time of day (morning, afternoon, evening, night). 
+So, to answer our original question - what variable has the greatest effect on departure delays? - our suggested solution would be **time of day** (morning, afternoon, evening, night). 
 
 To further expand on this conclusion, it is important to emphasis that this is just based on the analysis of a very specific subset of data – United Airlines NYC for the year of 2013. If we wanted to gain a better understanding of variable effects on United Airlines' departure delays, we would want to analyze data across multiple origins and years.  
 

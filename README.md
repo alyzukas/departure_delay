@@ -73,7 +73,7 @@ Expanding this analysis further by analyzing this across multiple years allows u
 
 ---
 
-## Authors (ADD)
+## Authors 
 
 - Alyssa Zukas - [@alyzukas](https://github.com/alyzukas)
 - Prince Newman

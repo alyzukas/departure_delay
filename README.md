@@ -41,10 +41,10 @@ executed in Google Colab using the `nycflights13` dataset.
 
 This project utilizes four main data sets from the **‘nycflights13’ R Package**:
 
-- Weather: Contains values from the variables we are going to analyze further. Like the departure airport, time of day, time of year, visibility, precipitation level, and wind speed. 
-- Airlines: Provides details about each airline, including the carrier airline code and airline name. 
-- Airports: Contains details about each airport, like the faa code, name, altitude, latitude/longitude, altitude(ft), timezone, and daylight-saving indicators . 
-- Flights: Contains details about the United Airlines flights in and out of NYC for the year of 2013, such as the airline and carrier names, airport information, plane identification codes, and weather origin. 
+- **Weather**: Contains values from the variables we are going to analyze further. Like the departure airport, time of day, time of year, visibility, precipitation level, and wind speed. 
+- **Airlines**: Provides details about each airline, including the carrier airline code and airline name. 
+- **Airports**: Contains details about each airport, like the faa code, name, altitude, latitude/longitude, altitude(ft), timezone, and daylight-saving indicators . 
+- **Flights**: Contains details about the United Airlines flights in and out of NYC for the year of 2013, such as the airline and carrier names, airport information, plane identification codes, and weather origin. 
 
 
 Together, these datasets allow for the analysis of relationships between departure delays and the 6 variables we aim to analyze.  

@@ -37,15 +37,17 @@ executed in Google Colab using the `nycflights13` dataset.
 
 ## Data (ADD)
 
-- **Sources:** 
+## Sources:
 
-    - EdGap Information (EdGap_data.xlsx)[https://github.com/alyzukas/education/blob/main/data/EdGap_data.xlsx]
-    - School Information (ccd_sch_029_1617_w_1a_11212017.csv [https://github.com/alyzukas/education/blob/main/data/ccd_sch_029_1617_w_1a_11212017.csv]
-    - Geographical Assignment (EDGE_GEOCODE_PUBLICSCH_1617.xlsx)[https://github.com/alyzukas/education/blob/main/data/EDGE_GEOCODE_PUBLICSCH_1617.xlsx]
+This project utilizes four main data sets from the **‘nycflights13’ R Package**:
+
+- Weather: Contains values from the variables we are going to analyze further. Like the departure airport, time of day, time of year, visibility, precipitation level, and wind speed. 
+- Airlines: Provides details about each airline, including the carrier airline code and airline name. 
+- Airports: Contains details about each airport, like the faa code, name, altitude, latitude/longitude, altitude(ft), timezone, and daylight-saving indicators . 
+- Flights: Contains details about the United Airlines flights in and out of NYC for the year of 2013, such as the airline and carrier names, airport information, plane identification codes, and weather origin. 
 
 
-
-- **License:** N/A
+Together, these datasets allow for the analysis of relationships between departure delays and the 6 variables we aim to analyze.  
 
 ---
 
@@ -55,17 +57,28 @@ Google Colab Notebook
 
 ---
 
-## Results (ADD)
-Based off of the differing average exam scores for each geoassignment category, it is safe to assume that a schools geographical assignment **does** have an affect on school performance. But based off how little these averages differ, we cannot confidently support that geoassignment necessarily has a **strong** affect on school performance.
+## Results 
+For 2013 United Airlines NYC flights, we found that the strongest predictors of departure delays were time_of_day and time_of_year, but when tested for randomness – we found that time_of_day was the only variables that displayed any level of statistical significance. 
 
-When analyzing the relationship of school performace and all socioeconmic variables, it appears that there are **other school variables that have stronger effects on school performace** than geographical assignment. Specifically - percentage of college education, percentage of students from married-couple families, and median income.
+So, to answer our original question - what variable has the greatest effect on departure delays? - our suggested solution would be time of day (morning, afternoon, evening, night). 
+
+To further expand on this conclusion, it is important to emphasis that this is just based on the analysis of a very specific subset of data – United Airlines NYC for the year of 2013. If we wanted to gain a better understanding of variable effects on United Airlines' departure delays, we would want to analyze data across multiple origins and years.  
+
+For example, we could analyze the relationship of departure delays for NYC Unites Airlines flights across the time span of 2000 to 2020, instead of just in 2013. This would allow us to see a bigger picture in variables like time_of_year (winter, spring summer, fall).  
+
+Just like our permutation test suggested, the differences we observed in the departure delays for each season is mostly likely due to random chance. Logically, we can consider the fact that this is not fully true. Time of year must affect departure delays, right? 
+
+Expanding this analysis further by analyzing this across multiple years allows us to pick up any potential trends. 
 
 
 ---
 
 ## Authors (ADD)
 
-- Your Name - [@alyzukas](https://github.com/alyzukas)
+- Alyssa Zukas - [@alyzukas](https://github.com/alyzukas)
+- Prince Newman
+- Badamgarav Battushig
+- Edwin Okwor
 
 ---
 
@@ -75,14 +88,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## Acknowledgements (ADD)
+## Acknowledgements 
 
 - Tools/libraries used:
-    -  pandas
-    -  NumPy
-    - matplotlib.pyplot
-    - seaborns grid modeling
-    - statsmodels.formula.api
-    - statsmodels.api
-- Tutorials or papers referenced: DATA 5100 Class modules
-- Inspiration or collaborators: Dr Fischer
+    -  Ggplot2: Imported for data visualization 
+    - Dplyr: Used for data manipulation in R. Such as the filter, select, muttate, arrange, and summarize functions 
+    - Tidyr: Used for tidying and reshaping data 
+    - Tibble: Installed modern data frames for R 
+    - Forcats: Imported for categorical/factor data manipulation 
+    - Lubridate: Used to work with date and time 
+- Tutorials or papers referenced: DATA 5300 Class modules
+- Inspiration or collaborators: Dr Slaughter

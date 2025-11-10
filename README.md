@@ -21,9 +21,9 @@ executed in Google Colab using the `nycflights13` dataset.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1UX6xXixKirhUbRy2xcQqpOwBOpC45K64#scrollTo=uleS3xuDbX9h)
 
-Please view the fficial Google Powerpoint presentation [here](https://docs.google.com/presentation/d/1llBNPO991JsdHFwYwofdL1u-ZTQaiRJ5O6EKXS1JWoQ/edit?slide=id.gc6f9e470d_0_0#slide=id.gc6f9e470d_0_0). 
+Please view the fficial **Google Powerpoint** presentation [here](https://docs.google.com/presentation/d/1llBNPO991JsdHFwYwofdL1u-ZTQaiRJ5O6EKXS1JWoQ/edit?slide=id.gc6f9e470d_0_0#slide=id.gc6f9e470d_0_0). 
 
-Please view the official link to the Analysis Report [here](https://redhawks-my.sharepoint.com/:w:/r/personal/azukas_seattleu_edu/_layouts/15/Doc.aspx?sourcedoc=%7Bec7a6e9d-e7cd-418b-8c36-ea39606ec47c%7D&action=edit&wdPreviousSession=a3e074e4-a199-051d-9450-868f4a0f6938&web=1)
+Please view the official link to the **Analysis Report** [here](https://redhawks-my.sharepoint.com/:w:/r/personal/azukas_seattleu_edu/_layouts/15/Doc.aspx?sourcedoc=%7Bec7a6e9d-e7cd-418b-8c36-ea39606ec47c%7D&action=edit&wdPreviousSession=a3e074e4-a199-051d-9450-868f4a0f6938&web=1).
 
 ---
 

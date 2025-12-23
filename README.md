@@ -33,7 +33,6 @@ Please view the official link to the **Analysis Report** [here](https://redhawks
 ├── 'departure_delay_analysis'                # Google Colab Notebook and R script
 ├── 'departure_delay_analysis_report          # Generated reports and visualizations
 ├── 'departure_delay_analysis_presentation    # Presentation slides for communicating results
-├── requirements.txt                          # Dependencies
 └── README.md                                 # Project documentation
 ```
 
